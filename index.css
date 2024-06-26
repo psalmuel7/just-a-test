@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(241, 235, 226);
+    margin: 0;
+}
+
+#hd{display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-color: rgba(0, 0, 255, 0.185);
+    position: fixed;
+    width: 100%;
+}
+
+#lg{
+    margin-left: 2rem;
+}
+
+#lg a{
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#ip input{
+    width: 20rem;
+    height: 2rem;
+}
+
+input:focus-visible {
+    outline: blue auto 2px;
+}
